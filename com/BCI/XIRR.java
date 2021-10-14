@@ -1,4 +1,4 @@
-package src.com.bci;
+package com.BCI;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -105,7 +105,7 @@ public class XIRR {
                 .map(this::createInvestment)
                 .collect(Collectors.toList());
 
-        this.builder = builder != null ? builder : com.BCI.NewtonRaphson.builder();
+        this.builder = (builder != null) ? builder : com.BCI.NewtonRaphson.builder();
         this.guess = guess;
     }
 

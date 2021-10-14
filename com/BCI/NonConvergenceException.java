@@ -1,4 +1,4 @@
-package src.com.bci;
+package com.BCI;
 
 /*
  * Indicates the algorithm failed to converge in the allotted number of iterations.

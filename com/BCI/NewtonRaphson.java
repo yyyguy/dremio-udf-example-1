@@ -1,4 +1,4 @@
-package src.com.bci;
+package com.BCI;
 
 import java.util.function.DoubleUnaryOperator;
 
@@ -183,9 +183,8 @@ public class NewtonRaphson {
             this.derivativeValue = derivativeValue;
             if (!Double.isFinite(derivativeValue)) {
                 throw new OverflowException("Derivative value overflow.", this);
-            } else if (derivativeValue == 0.0) {
-                throw new com.BCI.ZeroValuedDerivativeException(this);
             }
+            else if (derivativeValue == 0.0) throw new com.BCI.ZeroValuedDerivativeException(this);
         }
 
         @Override

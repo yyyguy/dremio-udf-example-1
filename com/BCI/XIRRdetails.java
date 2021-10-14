@@ -1,4 +1,4 @@
-package src.com.bci;
+package com.BCI;
 
 import java.time.LocalDate;
 import java.util.stream.Collector;

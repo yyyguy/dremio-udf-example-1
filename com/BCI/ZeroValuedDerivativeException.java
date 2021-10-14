@@ -1,4 +1,4 @@
-package src.com.bci;
+package com.BCI;
 
 /*
  * Indicates that the numerical method employed encountered a zero-valued

@@ -1,4 +1,4 @@
-package src.com.bci;
+package com.BCI;
 
 /*
  * Indicates that the algorithm failed to converge due to one of the values
@@ -8,9 +8,9 @@ package src.com.bci;
  */
 public class OverflowException extends ArithmeticException {
 
-    private final com.BCI.NewtonRaphson.Calculation state;
+    private final NewtonRaphson.Calculation state;
 
-    OverflowException(String message, com.BCI.NewtonRaphson.Calculation state) {
+    OverflowException(String message, NewtonRaphson.Calculation state) {
         super(message);
         this.state = state;
     }
